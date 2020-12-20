@@ -674,9 +674,9 @@ video {
   list-style-type: decimal;
 }
 
-.mx-64 {
-  margin-left: 16rem;
-  margin-right: 16rem;
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .mx-auto {
@@ -873,10 +873,6 @@ video {
   white-space: nowrap;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
 .w-1\/3 {
   width: 33.333333%;
 }
@@ -891,6 +887,10 @@ video {
 
 .w-9\/12 {
   width: 75%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 @-webkit-keyframes spin {
@@ -972,9 +972,22 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
   .md\:mx-8 {
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+
+  .md\:mx-32 {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
   }
 }
 
@@ -994,6 +1007,11 @@ video {
   .xl\:mx-48 {
     margin-left: 12rem;
     margin-right: 12rem;
+  }
+
+  .xl\:mx-64 {
+    margin-left: 16rem;
+    margin-right: 16rem;
   }
 
   .xl\:px-60 {
